@@ -7,14 +7,19 @@ in order to build custom practicing material.
 # Status
 
 This is largely untested/unverified and may have bugs.
-Also, currently no support for _Simple Form_ and suffixes.
+
+Unsupported features:
+- Simple Form
+- negation
+- past-tense
+- suffixes
 
 # Running
 
-Import into Java IDE and build with Java 17.
-Configure the set of phrases to build and run from `Generator.main()`.
-Copy/paste the output (tab-separated) into Google Sheets/EXCEL or directly into [TypeyType](https://didoesdigital.com/typey-type).
+1. Import into Java IDE and build with Java 17.
+2. Configure the set of phrases to build and run from `Generator.main()`.
+3. Copy/paste the output (tab-separated) into Google Sheets/EXCEL or directly into [TypeyType](https://didoesdigital.com/typey-type).
 
 ## License
 
-Licensed under the Apache License, Version 2.0 (the "License"), see [LICENCE](LICENCE)
+Licensed under the Apache License, Version 2.0 (the "License"), see [LICENCE](LICENCE).
